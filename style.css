@@ -1,0 +1,211 @@
+@font-face {
+  font-family: roboto-bold;
+  src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: marsin-black;
+  src: url(fonts/Fontspring-DEMO-mersin-black.ttf);
+}
+
+@font-face {
+  font-family: mero-bold;
+  src: url(fonts/Muller-ExtraBold-DEMO.ttf);
+}
+
+@font-face {
+  font-family: roboto-light;
+  src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: grotesk-light;
+  src: url(fonts/David_Engelby_Foundry-CopenhagenGroteskNova-Light.ttf);
+}
+
+@font-face {
+  font-family: grotesk-regular;
+  src: url(fonts/David_Engelby_Foundry-Copenhagen_Grotesk_Nova_Regular.ttf);
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.button {
+  border-radius: 10%;
+  background-color: #fff;
+  border: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  cursor: pointer;
+}
+
+.settings {
+  height: 30px;
+  padding-top: 20px;
+}
+
+.h3 {
+  width: 400px;
+  height: 50px;
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: mero-bold;
+  color: #fff;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ai {
+  height: 50px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.background1 {
+  background-size: cover;
+  height: 100vh;
+  animation: change 17s infinite ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes change {
+  0% {
+    background-image: url(images/bgg1.jpg);
+  }
+
+  20% {
+    background-image: url(images/bgg2.jpg);
+  }
+
+  40% {
+    background-image: url(images/bgg3.png);
+  }
+
+  60% {
+    background-image: url(images/bgg4.png);
+  }
+
+  80% {
+    background-image: url(images/bgg5.png);
+  }
+
+  100% {
+    background-image: url(images/bgg6.png);
+  }
+}
+.title-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  margin-top: 10px;
+}
+
+.title {
+  color: #eefffe;
+  font-family: roboto-bold;
+  font-weight: 900;
+  font-size: 65px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.text-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.title-text {
+  width: 800px;
+  height: 200px;
+  z-index: 2;
+  color: #ffffff;
+  font-family: grotesk-regular;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+.text-wrap2 {
+  display: flex;
+  justify-content: center;
+}
+.title-text2 {
+  color: #fff;
+  font-family: grotesk-light;
+  font-size: 32px;
+  letter-spacing: 1px;
+  width: 800px;
+}
+
+.about {
+  height: 500px;
+  position: relative;
+  display: flex;
+}
+
+.div1 {
+  width: 40%;
+  background-color: #fff;
+  position: relative;
+  border-radius: 5px;
+}
+
+.div2 {
+  width: 60%;
+  background: url(images/aiineducation.png);
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.div1-textarea {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  width: 270px;
+}
+
+.div1-title-title {
+  font-family: mero-bold;
+}
+
+.div1-title-main {
+  font-family: mero-bold;
+  padding-top: 25px;
+  font-size: 40px;
+  width: 260px;
+  padding-bottom: 25px;
+}
+
+.div1-text {
+  font-family: roboto-light;
+}
+
+footer {
+  height: 100px;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0px 50px;
+  justify-content: space-between;
+}
+.icon-wrapper {
+  display: flex;
+  column-gap: 20px;
+}
+.icons {
+  width: 50px;
+  border-radius: 50%;
+}
